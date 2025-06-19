@@ -91,7 +91,7 @@ p {
     display: block;
     width: 90px;
     height: 60px;
-    background-image: url('/img/logo/logo.webp');
+    background-image: url('../img/logo/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -349,10 +349,6 @@ img.social-icon {
     .info-modal-content {
         width: 90%;
         max-height: 80dvh;
-    }
-
-    .logo-footer {
-        margin: 0 auto;
     }
 
     .inside-caption {
