@@ -98,7 +98,7 @@ p {
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .nav-link {
@@ -353,6 +353,14 @@ img.social-icon {
 
     .inside-caption {
         left: 50%;
+    }
+
+    .info-modal-content__list {
+        align-items: center;
+    }
+
+    .info-modal-content__list > li {
+        width: inherit;
     }
 }
 
