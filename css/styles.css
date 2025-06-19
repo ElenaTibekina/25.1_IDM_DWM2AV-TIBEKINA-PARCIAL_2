@@ -30,8 +30,9 @@
 body {
     font-weight: 400;
     font-family: Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--text-color-primary);
+    overflow-x: hidden;
 }
 
 main {
@@ -98,7 +99,7 @@ p {
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    color: var(--color-white);
+    color: #fff;
 }
 
 .nav-link {
@@ -361,6 +362,12 @@ img.social-icon {
 
     .info-modal-content__list > li {
         width: inherit;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
