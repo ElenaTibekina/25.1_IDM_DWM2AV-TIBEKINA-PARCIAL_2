@@ -87,6 +87,7 @@ p {
 }
 
 .logo {
+    text-align: center;
     display: block;
     width: 90px;
     height: 60px;
@@ -97,7 +98,7 @@ p {
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    color: var(--color-white);
+    color: #fff;
 }
 
 .nav-link {
