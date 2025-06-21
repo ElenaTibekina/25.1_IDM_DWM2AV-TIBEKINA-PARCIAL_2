@@ -260,7 +260,14 @@ p {
 }
 
 .modal-success__img {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
     filter: invert(19%) sepia(96%) saturate(724%) hue-rotate(118deg) brightness(93%) contrast(101%);
+    background-image: url('../img/icons/success-tick.svg');
+    width: 60px;
+    height: 60px;
+    padding-right: 30px;
 }
 
 .modal-alert-success {
